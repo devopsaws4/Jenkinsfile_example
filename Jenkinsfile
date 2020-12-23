@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Git clone') {
             steps {
-                // Get some code from a GitHub repository
+                // Get some code from a GitHub repository1
                 git credentialsId: 'gitrepo_maven', url: 'https://github.com/devopsaws4/Maven_JunitTestcase.git'
           }
        }
